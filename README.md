@@ -151,3 +151,7 @@ Q. bonus function
 
 * if loss, it will print a message that the player do not win any in the bonus game and press Spin to play the new game
   •else it will print alert for the player to press the spin for the new game when pressing the bonus spin button
+
+4. Things that can be add on
+   • To ask the player whether they are over 18 years old. If they are over 18 years old, the player can process to play else they will be alert to leave.
+   • can put a condition for the player to play the bonus game (Must play the bonus game) before it can continue to play.
