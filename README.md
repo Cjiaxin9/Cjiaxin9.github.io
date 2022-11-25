@@ -1,5 +1,7 @@
 ﻿Project #1: Slot Machine
 
+User under 18 cannot access to this game. 
+
 \1. OverView on the slot machine
 
 - There 5 matching lines for this game to win.
