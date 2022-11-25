@@ -1,6 +1,17 @@
 const items = ["🍭", "🍌", "⛄️", "🍎"];
 const bonusArr = ["0", "1", "0"];
 
+// cheaking age
+let yourAge = prompt("Please enter your age: ")
+
+if (yourAge >= 19) {
+    alert("Enjoy!");
+    document.getElementById("content").style.display = "block";
+} else {
+    alert("Users under the age of 19 cannot access this page");
+    location.href = ("../html/index.html");
+}
+
 // bet increase
 let betNo = document.querySelector(".displayForBet").innerHTML;
 function betRaise(e) {
