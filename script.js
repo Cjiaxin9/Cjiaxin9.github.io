@@ -213,7 +213,7 @@ function spin(e) {
     } else {
       alert("Please choose the Betting Line");
     }
-  } else 
+  } else {
     alert("Please place your bet");
   }
 }
