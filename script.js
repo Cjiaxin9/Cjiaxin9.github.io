@@ -31,7 +31,7 @@ function cashin() {
     ".displayForTotalCredit"
   ).innerHTML;
 
-  if (parseFloat(cashInValue)<0) {
+  if (parseFloat(cashInValue)>0) {
     newCashIN = parseFloat(cashInBalance) + parseFloat(cashInValue); //balance + cash in value
 
     document.querySelector(".displayForTotalCredit").innerHTML = newCashIN;
