@@ -221,7 +221,7 @@ document.querySelector(".button").onclick = spin;
 
 // rules
 function rules(e) {
-  window.open("../rules.png");
+  window.open("https://www.linkpicture.com/q/rules_3.png");
 }
 document.querySelector(".rules").onclick = rules;
 
